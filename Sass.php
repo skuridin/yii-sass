@@ -28,7 +28,7 @@ class Sass extends CApplicationComponent
      */
     public function init()
     {
-        Yii::import($this->sassPathAlias.'.SassParser');
+        Yii::import($this->sassPathAlias);
 
         $functions = array();
         $paths = array();
